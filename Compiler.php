@@ -149,7 +149,7 @@ class Compiler
      *
      * @var string[]
      */
-    private $files;
+    private $files = [];
 
     /**
      * The mixins we found in the whole input.
